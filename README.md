@@ -1,18 +1,92 @@
-live link:
+# Student Profile
+
+A simple and responsive Student Profile application developed using React.js. The project demonstrates the use of React components and props to display student information dynamically.
+
+## Live Demo
+
 https://pavanimandati13-jpg.github.io/student-profile/
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## GitHub Repository
 
-Currently, two official plugins are available:
+https://github.com/pavanimandati13-jpg/student-profile
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The Student Profile application is a beginner-friendly React project that displays student details in a structured and user-friendly format.
 
-## Expanding the Oxlint configuration
+The project demonstrates how data can be passed from a parent component to a child component using React Props.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+The application displays information such as:
+
+- Student Name
+- Roll Number
+- Course
+- College
+
+---
+
+## Features
+
+- Simple and clean user interface
+- Displays student information
+- Reusable React component
+- Uses React Props
+- Dynamic data passing
+- Easy to understand component structure
+- Built using Vite
+- Deployed using GitHub Pages
+
+---
+
+## Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| React.js | Frontend development |
+| Vite | Development and build tool |
+| JavaScript | Application logic |
+| HTML5 | Page structure |
+| CSS3 | Styling |
+| Git | Version control |
+| GitHub | Source code management |
+| GitHub Pages | Deployment |
+
+---
+
+## React Concepts Used
+
+This project demonstrates:
+
+- React Functional Components
+- JSX
+- Props
+- Component Reusability
+- JavaScript Objects
+- Vite Project Structure
+
+---
+
+## Project Structure
+
+```text
+student-profile/
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   │
+│   ├── App.jsx
+│   ├── Student.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
